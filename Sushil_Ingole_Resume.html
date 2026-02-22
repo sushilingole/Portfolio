@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushil Anil Ingole - Resume</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+            line-height: 1.5;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px 0;
+        }
+
+        .resume-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 40px 60px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+
+        /* Print Settings for PDF alignment */
+        @media print {
+            body { background: #fff; padding: 0; }
+            .resume-container { box-shadow: none; padding: 20px 0; max-width: 100%; margin: 0; }
+            .print-btn { display: none; }
+        }
+
+        h1 { margin: 0 0 5px; font-size: 32px; color: #1a2a3a; text-transform: uppercase; letter-spacing: 1px;}
+        h2 { border-bottom: 2px solid #2563eb; color: #2563eb; font-size: 20px; padding-bottom: 5px; margin-top: 30px; text-transform: uppercase; letter-spacing: 1px;}
+        h3 { margin: 15px 0 5px 0; font-size: 16px; color: #1a2a3a; display: flex; justify-content: space-between; }
+        h4 { margin: 0 0 10px 0; font-size: 14px; color: #555; font-weight: 500; font-style: italic; }
+        
+        p { margin: 0 0 10px; font-size: 14px; }
+        ul { margin: 0 0 10px; padding-left: 20px; font-size: 14px; }
+        li { margin-bottom: 5px; }
+
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 25px;
+            font-size: 14px;
+            color: #555;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 15px;
+        }
+
+        .contact-info a { color: #2563eb; text-decoration: none; }
+        .contact-info a:hover { text-decoration: underline; }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 5px;
+        }
+
+        .skills-grid p { margin-bottom: 5px; }
+        .bold { font-weight: bold; color: #1a2a3a; }
+
+        .print-btn {
+            display: block;
+            width: 200px;
+            margin: 0 auto 30px;
+            padding: 10px 15px;
+            text-align: center;
+            background: #f43f5e;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .print-btn:hover { background: #e11d48; }
+
+    </style>
+</head>
+<body>
+
+    <button onclick="window.print()" class="print-btn">Print / Save as PDF</button>
+
+    <div class="resume-container">
+        <h1>Sushil Anil Ingole</h1>
+        <div class="contact-info">
+            <span><strong>Email:</strong> sushilingole163@gmail.com</span>
+            <span><strong>Phone:</strong> +91 9834954784</span>
+            <span><strong>Location:</strong> Nanded, Maharashtra, India</span>
+            <span><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/sushil-ingole-b32928296" target="_blank">linkedin.com/in/sushil-ingole</a></span>
+            <span><strong>GitHub:</strong> <a href="https://github.com/sushilingole" target="_blank">github.com/sushilingole</a></span>
+        </div>
+
+        <h2>Summary</h2>
+        <p>Driven and detail-oriented Software Developer with a solid foundation in core programming and practical experience developing scalable applications. Highly skilled in Java Full-Stack Development (Spring Boot, HTML, CSS, JavaScript, React, MySQL) and Android development. Proven track record of independently building 6+ full-stack and mobile applications, including AI-integrated tools, backend architectures, and secure payment integrations. Currently working as a Software Developer Intern at SETTribe LLP, leveraging a modern tech stack to deliver reliable software solutions.</p>
+
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <p><span class="bold">Backend & Frameworks:</span> Java, Spring Boot, Spring MVC, REST APIs, PHP, Microservices, JSP, Servlets, JDBC, JPA/Hibernate.</p>
+            <p><span class="bold">Frontend Technologies:</span> React, HTML5, CSS3, JavaScript, Bootstrap 5, AJAX, Thymeleaf, Vite/Node.js.</p>
+            <p><span class="bold">Databases:</span> MySQL, SQLite, Oracle (Basic).</p>
+            <p><span class="bold">Mobile Development:</span> Android SDK, Kotlin, Java (Android).</p>
+            <p><span class="bold">Tools & Platforms:</span> Git, GitHub, Postman, AI integrations (Gemini API, ChatGPT), Microsoft Power BI.</p>
+            <p><span class="bold">Core Competencies:</span> Object-Oriented Programming (OOPs), Data Structures & Algorithms, Unit & Manual Testing.</p>
+        </div>
+
+        <h2>Experience</h2>
+
+        <h3><span>Software Developer Intern</span> <span>2025 – Present</span></h3>
+        <h4>SETTribe LLP</h4>
+        <ul>
+            <li>Developing end-to-end full-stack applications utilizing PHP, Java, and Spring Boot.</li>
+            <li>Collaborating closely on various high-visibility governance applications and college portal live projects.</li>
+            <li>Creating and optimizing complex RESTful backend architectures, successfully integrating 3rd party APIs mapping seamlessly to frontend UI views.</li>
+            <li>Conducting strict QA by developing comprehensive unit and manual test cases for newly developed components.</li>
+        </ul>
+
+        <h3><span>Java Full Stack Trainee & Intern</span> <span>2023 – 2025</span></h3>
+        <h4>SETTribe Employeebility Solutions</h4>
+        <ul>
+            <li>Acquired hands-on initial 6-month internship experience exclusively developing full-stack environments.</li>
+            <li>Configured deep integrations working with PHP, core web technologies (HTML/CSS/JS), and heavily utilized MySQL databases.</li>
+            <li>Mastered Spring Core implementations, Spring MVC, IOC Containers, and Dependency Injections while executing class implementation logic.</li>
+            <li>Achieved formal Level 1 Software Engineering certification.</li>
+        </ul>
+
+        <h2>Key Independent Projects (2020 - Present)</h2>
+        <ul>
+            <li><span class="bold">AI Chat App Backend (Spring Boot & Gemini):</span> Engineered a robust backend application using Spring Boot designed to pipeline securely with Google's Gemini LLM.</li>
+            <li><span class="bold">Voice-to-Text Android App (Kotlin & AI):</span> Built and deployed a highly reliable native Android mobile application ensuring smooth, real-time speech recognition conversion tools.</li>
+            <li><span class="bold">Employee Management Android App:</span> Engineered utilizing native Android SDK principles prioritizing clean software architecture and smooth multi-screen interactions.</li>
+            <li><span class="bold">Razorpay Payment Integration API:</span> Designed highly secure microservice instances to manage and authenticate transaction flows mapping endpoints directly mapping to Razorpay servers.</li>
+            <li><span class="bold">JPA CRUD Architecture & Login Portals:</span> Programmed scalable data-persistence layers using JPA/Hibernate. Built secured user authentication systems mapping via Spring Boot & Thymeleaf.</li>
+        </ul>
+
+        <h2>Education & Certifications</h2>
+        <h3><span>Master of Science in Information Technology (M.Sc IT)</span> <span>2023 – Present</span></h3>
+        <h4>SRTMUN University</h4>
+        
+        <h3><span>Bachelor of Computer Applications (B.C.A)</span> <span>2020 – 2023</span></h3>
+        <h4>SRTMUN University | Graduated with 8.81 CGPA</h4>
+
+        <p><span class="bold">Professional Certifications:</span> Software Engineering L1, Full-Stack Java Certification, Microsoft Power BI, ChatGPT & AI Tools for modern workflows.</p>
+
+    </div>
+</body>
+</html>
